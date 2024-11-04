@@ -1,0 +1,48 @@
+.trusted-by {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    border-radius: 100px;
+    padding: 25px 40px;
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    
+}
+
+.trusted-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.trusted-logo img {
+    margin-bottom: 10px;
+}
+.full-w{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px 0px;
+}
+.infoText{
+    font-size: 14px;
+    width: 275px;
+}
+.titleBold{
+    font-weight: bold;
+}
+.textSentence{
+    text-align: center;
+    margin: 40px 0;
+}
+.textSentence h2{
+    color: #002060;
+}
+.textSentence p {
+    color: #564C4C;
+}
+.InBox{
+    border-right: 2px solid #EEE9E9;
+}

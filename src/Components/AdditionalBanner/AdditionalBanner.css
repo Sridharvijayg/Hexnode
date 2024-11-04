@@ -1,0 +1,47 @@
+.additional{
+    margin:auto auto 30px auto;
+    width: 90%;
+    display: flex;
+    gap: 100px;
+}
+.leftContent{
+    width: 45%;
+}
+.leftContent p{
+    color: #564C4C;
+    font-size: 14px;
+}
+.leftContent h1{
+    color: #002060;
+}
+.rightContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    gap: 24px;
+
+}
+.box{
+    padding: 20px;
+    min-width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+.box p, h5{
+    width: 200px;
+}
+.box p{
+    margin: 0;
+    font-size: 14px;
+    color: #5F6368;
+    margin-bottom: 10px;
+}
+.box img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}

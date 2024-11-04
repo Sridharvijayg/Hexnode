@@ -1,0 +1,94 @@
+.footer{
+    height: 350px;
+    background-color: #000229;
+}
+.insideFooter{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+.inboxDiv{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+.search{
+    width: 400px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #c4c5ca;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 12px;
+}
+.sendButton{
+    width: 32px;
+    height: 32px;
+} 
+.searchBox{
+    background-color: transparent;
+    margin-left: 3px;
+    border: none;
+    outline: none;
+    width: 300px;
+}
+.iconBox{
+    display: flex;
+    align-items: center;
+}
+.lineDiv{
+    height: 0.5px;
+    background: linear-gradient(90deg, 
+    rgba(255, 255, 255, 0) 0%, 
+    rgba(255, 255, 255, 1) 48%, 
+    rgba(255, 255, 255, 0.15) 100%, 
+    rgba(255, 255, 255, 0) 100%
+);
+}
+.footerDetails{
+    height: 240px;
+    display: flex;
+}
+.col{
+    width: 350px;
+}
+.col p{
+    margin: 0;
+    line-height: 26px;
+    font-size: 14px;
+    margin-bottom: 18px;
+    color: #cdcdd0;
+}
+.social{
+    display: flex;
+    gap: 8px;
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #9A9DA7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+    color: #cdcdd0;
+    font-size: 10px;
+    margin: 14px 0px;
+}
+.iconAddress{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.copyRigth{
+    text-align: center;
+    font-size: 14px;
+}

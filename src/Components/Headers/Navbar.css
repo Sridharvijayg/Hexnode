@@ -1,0 +1,100 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgb(218 211 211 / 19%);
+    backdrop-filter: blur(10px); /* Blurs the background behind the header */
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.3); Optional border */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    z-index: 1000; /* Ensures it stays on top */
+}
+
+.navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar-trial-btn {
+    background-color: #ff4a57;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
+}
+.hero {
+    text-align: center;
+    padding: 60px;
+    background-color: #f9f9f9;
+    background-image: url('../../Images/bg-image.png'); /* Default background for desktop */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top:-50px;
+    top: 0;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+}
+.relative{
+    position: relative;
+}
+.hero h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.hero-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+.hero-buttons button {
+    border-radius: 100px;
+}
+
+.get-started, .watch-video {
+    padding: 10px 20px;
+    border: none;
+    margin: 10px;
+}
+.watch-video{
+    background-color: #ffffff;
+}
+
+.get-started {
+    background-color: #ff4a57;
+    color: white;
+}
+
+.watch-video {
+    color: #ff4a57;
+    border: 1px solid #ff4a57;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+}
+.bold{
+    font-weight: bold;
+}
+.leftContent{
+
+}

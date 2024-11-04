@@ -1,0 +1,33 @@
+.headTitle{
+    text-align: center;
+    color: #002060;
+}
+.mainContainer{
+    height: 280px;
+    width: 80%;
+    margin: auto;
+    background-color: #f6f6f6;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+.insideContainer{
+    width: 300px;
+    height: 100px;
+    border-radius: 75px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.insideContainer img {
+    width: 60px;
+}
+.gap{
+    gap: 20px;
+}
